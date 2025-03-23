@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Gurukul - Sustainable Living</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav>
+    <div class="logo">Green Gurukul</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#learning">Learning</a></li>
+      <li><a href="#profile">Profile</a></li>
+    </ul>
+    <button id="theme-toggle">🌙</button>
+  </nav>
+
+  <!-- Home Page -->
+  <section id="home" class="page">
+    <h1>Welcome to Green Gurukul</h1>
+    <div class="search-bar">
+      <input type="text" id="article-search-input" placeholder="Search for articles...">
+      <button id="article-search-button">Search</button>
+    </div>
+    <div class="articles">
+      <!-- Articles will be dynamically inserted here -->
+    </div>
+  </section>
+
+  <!-- Learning Page -->
+  <section id="learning" class="page">
+    <h1>Learning Center</h1>
+    <div class="search-bar">
+      <input type="text" id="video-search-input" placeholder="Search for videos...">
+      <button id="video-search-button">Search</button>
+    </div>
+    <div class="youtube-videos">
+      <!-- YouTube videos will be dynamically inserted here -->
+    </div>
+  </section>
+
+  <!-- Profile Page -->
+  <section id="profile" class="page">
+    <h1>Your Profile</h1>
+    <div class="profile-details">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.ceo_a0A0ap2BViQZ1Ns1DgHaHa&pid=Api&P=0&h=180" alt="Profile Picture">
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Email:</strong> john.doe@example.com</p>
+      <button>Edit Profile</button>
+    </div>
+    <div class="history">
+      <h2>Activity History</h2>
+      <ul>
+        <li>Read: Understanding SDGs</li>
+        <li>Saved: Upcycle Old Clothes</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- Modal for Full Article -->
+  <div id="article-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <img id="modal-image" src="" alt="Article Image">
+      <p id="modal-content"></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <p>&copy; 2023 Green Gurukul. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
